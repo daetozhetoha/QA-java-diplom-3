@@ -6,7 +6,6 @@ import edu.praktikum.diploma.api.models.UserCreds;
 import edu.praktikum.diploma.web.ConstructorPage;
 import edu.praktikum.diploma.web.LoginPage;
 import edu.praktikum.diploma.web.PersonalAccountPage;
-import edu.praktikum.diploma.web.RegistrationPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
@@ -25,7 +24,6 @@ import static org.junit.Assert.assertTrue;
 
 public class LogoutTest {
     private WebDriver driver;
-    private RegistrationPage registrationPage;
     private LoginPage loginPage;
     private ConstructorPage constructorPage;
     private PersonalAccountPage personalAccountPage;

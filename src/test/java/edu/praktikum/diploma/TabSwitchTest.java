@@ -5,7 +5,6 @@ import edu.praktikum.diploma.api.models.User;
 import edu.praktikum.diploma.api.models.UserCreds;
 import edu.praktikum.diploma.web.ConstructorPage;
 import edu.praktikum.diploma.web.LoginPage;
-import edu.praktikum.diploma.web.RegistrationPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
@@ -24,7 +23,6 @@ import static org.junit.Assert.assertEquals;
 
 public class TabSwitchTest {
     private WebDriver driver;
-    private RegistrationPage registrationPage;
     private LoginPage loginPage;
     private ConstructorPage constructorPage;
     private UserClient userClient;
@@ -117,11 +115,6 @@ public class TabSwitchTest {
     @Step("Click on the fillings tab")
     public void clickFillingsTab() {
         constructorPage.clickFillingsTab();
-    }
-
-    @Step("Get text from selected tab")
-    public void getTextFromSelectedTab() {
-        constructorPage.getTextFromSelectedTab();
     }
 
     @After

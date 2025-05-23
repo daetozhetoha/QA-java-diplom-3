@@ -22,7 +22,6 @@ import static org.junit.Assert.assertTrue;
 
 public class PersonalAccountEnterTest {
     private WebDriver driver;
-    private RegistrationPage registrationPage;
     private LoginPage loginPage;
     private ConstructorPage constructorPage;
     private PersonalAccountPage personalAccountPage;
